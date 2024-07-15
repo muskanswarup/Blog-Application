@@ -12,7 +12,7 @@ const Navbar = () => {
 
   return (
     <div className="bg-gray-100 shadow-lg">
-      <div className="flex items-center justify-between px-6 md:px-[200px] py-4">
+      <div className="flex items-center justify-between px-6 md:px-[200px] py-4 md:space-x-4">
         <h1 className="text-lg md:text-xl font-extrabold text-teal-600">
           <Link to="/">Blog Market</Link>
         </h1>
