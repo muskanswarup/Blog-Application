@@ -4,7 +4,7 @@ import { FaSearch, FaBars, FaTimes } from "react-icons/fa";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
-  const user = true;
+  const user = false;
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
@@ -50,7 +50,7 @@ const Navbar = () => {
             </h3>
           ) : (
             <h3 className="text-teal-600 hover:text-teal-800">
-              <Link to="/register">Register</Link>
+              <Link to="/signup">SignUp</Link>
             </h3>
           )}
         </div>
